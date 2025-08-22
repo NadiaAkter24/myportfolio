@@ -53,13 +53,7 @@ function Education() {
         </p>
         <p className="italic mb-2">January 2023 – April 2025</p>
         <ul className="list-disc ml-6 mb-2">
-          <li>Maintained a GPA of 3.39, demonstrating strong academic performance in software engineering.</li>
-          <li>Built full-stack apps using React, Spring Boot, MySQL & Firebase.</li>
-          <li>Developed Android app for real-time doctor appointments.</li>
-          <li>Created games and desktop apps with Java, Unity, and WinForms.</li>
-          <li>Hands-on skills in REST APIs, cloud (AWS), and secure coding.</li>
-          <li>Experienced with Git, Postman, Jenkins, and Azure DevOps.</li>
-          <li>Applied Agile methods, UML modeling, and software documentation.</li>
+          <li>Throughout my education at Centennial College, I developed a strong foundation in programming, web development, and software engineering principles. My coursework equipped me with the skills to build secure and reliable applications, apply data structures and algorithms effectively, and collaborate efficiently within Agile development environments.</li>
         </ul>
 
         <p className="font-semibold mb-2">Relevant Courses Completed:</p>

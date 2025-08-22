@@ -4,6 +4,8 @@ function Certificates() {
   const certificates = [
     "Building a Safe, Respectful, and Inclusive Workplace for Crew – Hamburger University Online – March 21, 2024",
     "Workplace Violence Prevention (Crew) – Hamburger University Online – March 21, 2024",
+    "Impact Mentoring (Mentor or Mentee) – Ten Thousand Coffees – Issued Aug 2025 ",
+    "Ten Thousand Coffees Member – Ten Thousand Coffees – Issued Mar 2025 · Expires Mar 2026 ",
     "CompTIA IT Fundamentals (FC0-U61) Cert Prep 1: Computer Basics, Hardware, and Operating Systems – LinkedIn – July 2025",
     "Customer Service: Problem-Solving and Troubleshooting – LinkedIn – July 2025",
     "IT Help Desk for Beginners – LinkedIn – July 2025",
