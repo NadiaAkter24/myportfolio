@@ -1,12 +1,25 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Make Changes
 
-Currently, two official plugins are available:
+Open your project folder in VS Code (or your editor).
+Edit your React components, pages, or assets as needed.
+Save your changes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Commit Changes to main
+git checkout main
+git status        # Check what has changed
+git add .         # Stage all changes
+git commit -m "Describe what you updated"
+git push origin main
 
-## Expanding the ESLint configuration
+3. Build Your Vite Project
+npm run build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Deploy to GitHub Pages
+npx gh-pages -d dist
+
+ this step after : PS C:\Users\nadia\my-portfolio> npm run build
+
+Then in the terminal, you can deploy in one step:
+npm run deploy
