@@ -44,7 +44,7 @@ function Sidebar() {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-900 text-gray-200 shadow-lg p-6 transform transition-transform duration-300 z-40 
+        className={`fixed top-0 left-0 h-full w-64 bg-gray-900 text-gray-200 shadow-lg p-6 transform transition-transform duration-300 z-40
         ${menuOpen ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
       >
         <h2 className="text-2xl font-bold mb-8">Nadia Akter</h2>
@@ -71,6 +71,14 @@ function Sidebar() {
           </ul>
         </nav>
       </aside>
+
+      {/* Dark overlay when sidebar is open on mobile */}
+      {menuOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 z-30 lg:hidden"
+          onClick={() => setMenuOpen(false)}
+        ></div>
+      )}
     </>
   );
 }

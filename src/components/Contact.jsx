@@ -8,6 +8,7 @@ function Contact() {
     >
       <h2 className="text-4xl font-bold mb-8 text-purple-400">Contact Me</h2>
 
+      {/* Contact Info */}
       <div className="text-center space-y-4 mb-8">
         <p className="text-xl">
           Email:{" "}
@@ -32,6 +33,7 @@ function Contact() {
           <a
             href="https://www.linkedin.com/in/nadia-akter8692142a3/"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-purple-400 hover:text-purple-200 underline"
           >
             linkedin.com/in/nadia-akter8692142a3
@@ -42,11 +44,32 @@ function Contact() {
           <a
             href="https://github.com/nadiaakter24"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-purple-400 hover:text-purple-200 underline"
           >
             github.com/nadiaakter24
           </a>
         </p>
+      </div>
+
+      {/* Resume & Cover Letter Buttons */}
+      <div className="mt-6 flex flex-col items-center space-y-4 mb-8">
+        <a
+          href="/myportfolio/files/My_resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded transition"
+        >
+          View Resume
+        </a>
+        <a
+          href="/myportfolio/files/Cover_letter.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded transition"
+        >
+          View Cover Letter
+        </a>
       </div>
 
       {/* Contact Form */}

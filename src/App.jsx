@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="bg-gray-900 text-white flex">
       <Sidebar />
-      <main className="ml-64 flex-1">
+      <main className="flex-1 p-6 lg:ml-64">
         <AboutMe />
         <Education />
         <Skills />
